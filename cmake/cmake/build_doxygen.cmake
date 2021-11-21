@@ -4,9 +4,9 @@ macro(build_doxygen)
 find_package(Doxygen)
 if (DOXYGEN_FOUND)
     # set input and output files
-    #set(DOXYGEN_IN ${CMAKE_CURRENT_LIST_DIR}/docs/Doxyfile.in)
-    #set(DOXYGEN_OUT ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile)
-    set(DOXYGEN_IN ${CMAKE_CURRENT_LIST_DIR}/docs/Doxyfile01.in)
+    set(DOXYGEN_IN ${CMAKE_CURRENT_LIST_DIR}/docs/Doxyfile.in)
+    set(DOXYGEN_OUT ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile)
+    #set(DOXYGEN_IN ${CMAKE_CURRENT_LIST_DIR}/docs/Doxyfile01.in)
     #set(DOXYGEN_OUT ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile01)
 
     # request to configure the file

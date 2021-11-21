@@ -3,6 +3,7 @@ OUTPUT_LANGUAGE        = Chinese
 OPTIMIZE_OUTPUT_FOR_C  = YES
 CHM_INDEX_ENCODING     = GBK
 PROJECT_NAME           = "Main Project"
+OUTPUT_DIRECTORY			 =  docs
 CREATE_SUBDIRS         = YES
 RECURSIVE              = YES
 EXAMPLE_RECURSIVE      = YES
